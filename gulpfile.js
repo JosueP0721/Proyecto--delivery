@@ -37,7 +37,7 @@ function convertWebp () {
     const options = {
         quality: 50
     }
-    return src('src/img/**/*.{jpg,png')
+    return src('src/img/**/*.{jpg,png}')
             .pipe(webp(options))
             .pipe(dest('build/img'))
 }
