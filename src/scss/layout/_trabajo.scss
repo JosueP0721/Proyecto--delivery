@@ -32,5 +32,8 @@
     }
     &__boton {
         @include m.boton(v.$primario, v.$blanco);
+        @include m.tablet {
+            width: 25rem;
+        }
     }
 }
