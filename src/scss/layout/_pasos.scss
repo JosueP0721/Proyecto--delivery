@@ -24,7 +24,6 @@
     }
     &__imagen {
         width: 100%;
-        height: auto;
         transition: transform .3s ease-in-out;
         &:hover {
             transform: rotate(-4deg) scale(1.2);
